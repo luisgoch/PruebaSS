@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Patria';
+  src: url('Patria Regular.otf') format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', Arial, sans-serif;
+}
+
+.encabezado {
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eef3f4;
+}
+
+.logos img,
+.logoSINDAPRESS img {
+  height: 60px;
+}
+
+.menu {
+  background: #7f1f3f;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  padding: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 16px 24px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: background 0.3s ease;
+}
+
+.menu a:hover {
+  background: #a32c4e;
+}
+
+.solicitudes {
+  margin-left: auto;
+}
+ /*ARRIBA*//*ARRIBA*/
+/*ARRIBA*//*ARRIBA*/
+
+.item:nth-child(1),
+.item:nth-child(2),
+.item:nth-child(3) {
+  flex-grow: 1;
+}
+
+/* FOOTER *//* FOOTER */
+/* FOOTER *//* FOOTER */
+.futer {
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+  padding: 20px 30px;
+  font-size: 12px;
+}
+.futerizq,
+.futercentro,
+.futerder {
+  width: 33%;
+}
+
+.futercentro {
+  text-align: center;
+}
+
+.futercentro img {
+  height: 35px;
+}
+
+.futerder {
+  text-align: right;
+}
+
